@@ -1,0 +1,100 @@
+.testimonial__container {
+    width: 1050px;
+
+    margin-bottom: var(--mb-1);
+}
+
+.testimonial__card {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 2rem;
+    border-radius: 1.5rem;
+    margin-bottom: var(--mb-3);
+}
+
+.testimonial__header {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.testimonial__img {
+    width: 60px;
+    border-radius: 3rem;
+    margin-bottom: var(--mb-1);
+}
+
+.testimonial__data {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--mb-1);
+}
+
+.testimonial__name {
+    display: flex;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    /* margin-bottom: var(--mb-0-25); */
+}
+
+.verified__img {
+    width: 15px;
+    border-radius: 3rem;
+    margin-left: var(--mb-0-25);
+}
+
+.status__description {
+    font-size: var(--small-font-size);
+    font-weight: bold;
+}
+
+hr {
+    /* Set the thickness of the line */
+    border-width: 0.1px;
+    /* Adjust as needed */
+    /* Set the style of the line (solid, dashed, etc.) */
+    border-style: solid;
+    /* Set the color of the line */
+    border-color: #cacaca;
+    /* Adjust to your desired color */
+}
+
+.testimonial__description {
+    font-size: var(--small-font-size);
+    /* Limit text to 177 characters */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /* Add ellipsis */
+    text-overflow: ellipsis;
+    /* Add any other styling you want */
+    /* For example, adjust font size and color */
+}
+
+/* Vew More */
+.testimonial__model__description {
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+/* Swiper Class */
+.swiper-pagination-bullet {
+    background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--title-color) !important;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .testimonial__container {
+        width: initial;
+    }
+
+    .testimonial__card {
+        padding: 1.25rem 1.5rem;
+    }
+}
