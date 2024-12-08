@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.53c48259.css",
+    "main.css": "/static/css/main.34d9f3fd.css",
     "main.js": "/static/js/main.d280acc5.js",
     "static/js/592.6647c214.chunk.js": "/static/js/592.6647c214.chunk.js",
     "static/media/about.jpg": "/static/media/about.48bf6a450b799af930f9.jpg",
     "static/media/profile.jpg": "/static/media/profile.96650df3ec5a2c550c4b.jpg",
     "static/media/ChamikaGayashanCV.pdf": "/static/media/ChamikaGayashanCV.34fadb76f8531e27349c.pdf",
     "index.html": "/index.html",
-    "main.53c48259.css.map": "/static/css/main.53c48259.css.map",
+    "main.34d9f3fd.css.map": "/static/css/main.34d9f3fd.css.map",
     "main.d280acc5.js.map": "/static/js/main.d280acc5.js.map",
     "592.6647c214.chunk.js.map": "/static/js/592.6647c214.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53c48259.css",
+    "static/css/main.34d9f3fd.css",
     "static/js/main.d280acc5.js"
   ]
 }
